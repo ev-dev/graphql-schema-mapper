@@ -1,0 +1,12 @@
+{
+  "name": "graphql-schema-mapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ev-dev <evan.reed1100@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@std/esm": "0.16",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0"
+  }
+}
