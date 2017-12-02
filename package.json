@@ -4,11 +4,19 @@
   "main": "index.js",
   "author": "ev-dev <evdev.js@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "nodemon tests/parse-test.js"
+  },
   "dependencies": {
     "graphql": "^0.11.7",
-    "graphql-tag": "^2.5.0"
+    "graphql-tag": "^2.5.0",
+    "pg": "6",
+    "sequelize": "4.22"
   },
   "devDependencies": {
-    "mocha": "^4.0.1"
+    "chalk": "^2.3.0",
+    "eyes": "^0.1.8",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
   }
 }
